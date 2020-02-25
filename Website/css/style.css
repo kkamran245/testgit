@@ -197,7 +197,7 @@ i
 .pricing
 {
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	padding: 50px;
 	position: relative;
 }
@@ -292,11 +292,11 @@ i
 	color: #50d1c0;
 }
 
-.card-second
+/*.card-second
 
 {
 	transform: translateY(-20px);
-	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3); */
 }
 /***************************************** Pricing Section ends *******************************/
 
@@ -305,7 +305,7 @@ i
 .happyclients
 {
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	padding: 80px 0;
 }
 
@@ -350,7 +350,7 @@ i
 .box a img
 {
 	width: 100px;
-	height: 100px;
+	height: auto;
 	border-radius: 50%;
 	margin-top: 10px; 
 }
@@ -395,7 +395,7 @@ i
 .contactus
 {
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	padding: 10px;
 	position: relative;
 }
@@ -536,6 +536,30 @@ form:hover .form-button button
 	.nav-items
 	{
 		text-align: center!important;
+	}
+
+	.pricing, .happyclients, .contactus
+	{
+		height: auto;
+		margin-top: 50px;
+	}
+	.card-second
+	{
+		transform: translateY(0px);
+		margin: 30px 0;
+	}
+
+	.contactus p
+	{
+		padding: 0 50px;
+	}
+	.footer-div:nth-child(2)
+	{
+		text-align: left!important;
+	}
+	.footer-div
+	{
+		margin: 30px 0;
 	}
 }
 
