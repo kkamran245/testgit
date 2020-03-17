@@ -299,12 +299,18 @@ i
 }
 /***************************************** Pricing Section ends ********************************************/
 
+
+ .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
 /***************************************** Customers Feedback Section Starts *******************************/
 
 .happyclients
 {
 	width: 100%;
-	height: 100vh;
+	height: auto;
 	padding: 50px 0;
 }
 
